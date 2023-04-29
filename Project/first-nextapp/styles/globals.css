@@ -125,9 +125,3 @@ position: relative;
 cursor: pointer;
 white-space: nowrap;
 }
-.bgImage{
-  background-image: url("https://wallpaperaccess.com/full/1393189.jpg");
-  background-repeat: no-repeat, repeat;
- /* height: 100vh; */
-
-}
