@@ -5,7 +5,7 @@ const product = () => {
   return (
     <div> 
       <Navbar/>
-   <h2>product</h2> 
+   <h2>products</h2> 
     </div>
   )
 }
