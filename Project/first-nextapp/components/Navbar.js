@@ -1,19 +1,27 @@
 import Link from "next/link"
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-const Navbar = () => {
+const Navbars = () => {
   return (
     <div className="bgImage" >
      <nav >
-      <ul className='menu-bar'>
-        <li><Link href="/" >Home</Link></li>
-        <li><Link href="/about">About</Link></li>
-        <li> <Link href="/contact">Contact</Link></li>
-        <li>  <Link href="/blog"> blog</Link></li>
-        <li> <Link href="/product">Product</Link></li>
-      </ul>
+     <Navbar bg="dark" variant="dark">
+        <Container>
+          <Navbar.Brand href="/">Navbar</Navbar.Brand>
+          <Nav >
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/data">Data</Nav.Link>
+            <Nav.Link href="/addData">AddData</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+     
     </nav>
     </div>
   )
 }
 
-export default Navbar
+export default Navbars
