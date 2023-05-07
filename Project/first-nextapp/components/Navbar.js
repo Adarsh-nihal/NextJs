@@ -7,7 +7,7 @@ const Navbars = () => {
   return (
     <div className="bgImage" >
      <nav >
-     <Navbar bg="dark" variant="dark">
+     <Navbar fixed="top" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="/">Navbar</Navbar.Brand>
           <Nav >

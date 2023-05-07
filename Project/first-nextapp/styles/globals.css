@@ -107,7 +107,9 @@ a {
 } */
 
 .grid{
+  margin: auto;
   margin-top: 50px;
+  width: 90%;
   display: grid;
   grid-template-columns: repeat(4,1fr);
   gap:20px
@@ -133,4 +135,15 @@ a {
 .form>div>input{
   width: 90%;
   margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid{
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px
+  }
 }

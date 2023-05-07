@@ -41,7 +41,7 @@ const Mydata = ({data}) => {
        <h3>{data.id}</h3>
        <h2>{data.name}</h2>
        <p>{data.place}</p>
-      <Link href="/blog"> <button>Go Back</button></Link>
+      <Link href="/data"> <button>Go Back</button></Link>
         </>
   )
 }
