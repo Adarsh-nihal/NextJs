@@ -36,7 +36,7 @@ const handleSubmit=()=>{
    
     <div>
         <br />
-        <input w="90%" margin="auto" placeholder="Name of breed" value={name} onChange={(e)=>setName(e.target.value)} />
+        <input w="90%" margin="auto" placeholder="Name of breeds" value={name} onChange={(e)=>setName(e.target.value)} />
       </div>
       <div>
         <br />
