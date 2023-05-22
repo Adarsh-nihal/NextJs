@@ -48,7 +48,7 @@ const handleSubmit=()=>{
       </div>
       <div>
         <br />
-        <input  w="90%" margin="auto"  placeholder="Enter Place" value={place} onChange={(e)=>setPlace(e.target.value)} />
+        <input  w="89%" margin="auto"  placeholder="Enter Place" value={place} onChange={(e)=>setPlace(e.target.value)} />
       </div>
       <Button className="mt-3"  onClick={handleSubmit}>
        Submit
